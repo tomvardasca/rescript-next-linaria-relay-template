@@ -9,7 +9,7 @@
     "@linaria/core": "^3.0.0-beta.1",
     "@linaria/react": "^3.0.0-beta.1",
     "@linaria/shaker": "^3.0.0-beta.1",
-    "@next/bundle-analyzer": "^10.0.6",
+    "@next/bundle-analyzer": "^10.0.9",
     "@rescript/react": "0.10.1",
     "express": "^4.17.1",
     "gentype": "^3.42.0",
