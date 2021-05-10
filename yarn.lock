@@ -919,16 +919,16 @@
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.1.1.tgz#9daf5745156fd84b8e9889a2dc721f0c58e894aa"
   integrity sha512-CAEbWH7OIur6jEOzaai83jq3FmKmv4PmX1JYfs9IrYcGEVI/lyL1EXJGCj7eFVJ0bg5QR8LMxBlEtA+xKiLpFw==
 
-"@linaria/babel-preset@^3.0.0-beta.1":
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@linaria/babel-preset/-/babel-preset-3.0.0-beta.1.tgz#7cde6beef40175ab567c6803f1e5022558136dd8"
-  integrity sha512-5ge7RFljNnz2c8EduwAukz+rEQauoDelHqyo5C8TwxhvqFFfx9XOX1ocV3cKx4sCIdoCN7hPkb3JH/DRtzGUrQ==
+"@linaria/babel-preset@^3.0.0-beta.1", "@linaria/babel-preset@^3.0.0-beta.4":
+  version "3.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@linaria/babel-preset/-/babel-preset-3.0.0-beta.4.tgz#22fb043b1f61710ad98f26d756d368e5bfed8e47"
+  integrity sha512-Bjsk4VZUQXK3u04MuLlyP/+/tDd7bWeLXYCOnq4US9H2QFRdka97fm6hH34SRinoHm9fSPCHrj9d+KtY8ge2wg==
   dependencies:
     "@babel/generator" ">=7"
     "@babel/plugin-syntax-dynamic-import" ">=7"
     "@babel/template" ">=7"
-    "@linaria/core" "^3.0.0-beta.1"
-    "@linaria/logger" "^3.0.0-beta.0"
+    "@linaria/core" "^3.0.0-beta.4"
+    "@linaria/logger" "^3.0.0-beta.3"
     cosmiconfig "^5.1.0"
     source-map "^0.6.1"
     stylis "^3.5.4"
@@ -938,19 +938,31 @@
   resolved "https://registry.yarnpkg.com/@linaria/core/-/core-3.0.0-beta.1.tgz#bfacfd7922ed3844ae75db2979539a7cac4d8553"
   integrity sha512-W8VGvO76PH1EnR26Gix6f0weMv/mBptz24euAo1vC8HahyUP/A9RAYyOPPs3C39iAbHPLiGWA/UtS/UoYQbDZA==
 
-"@linaria/logger@3.0.0-beta.0", "@linaria/logger@^3.0.0-beta.0":
+"@linaria/core@^3.0.0-beta.4":
+  version "3.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@linaria/core/-/core-3.0.0-beta.4.tgz#ae878874773c15b189792e277771f68fef18019a"
+  integrity sha512-NzxeMDxRt57nR6tLFZ8xIstp5ld9JQPIyp9+TKtQZhoX3oJuUru+S4vXPr1Gach6VaqKKKT5T6fmJgJl9MMprw==
+
+"@linaria/logger@3.0.0-beta.0":
   version "3.0.0-beta.0"
   resolved "https://registry.yarnpkg.com/@linaria/logger/-/logger-3.0.0-beta.0.tgz#f4b002466a68ca111c2ca84a44d04bd2690b70d7"
   integrity sha512-gPfJox10U96au0S9AtnfT4ZIJUcvcWpc5N19/Vg2MnTmN+tI234I7e45YOi+3Mg3Qvo7pzG18SxVV/sFx8+xmg==
   dependencies:
     debug "^4.1.1"
 
-"@linaria/preeval@^3.0.0-beta.1":
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@linaria/preeval/-/preeval-3.0.0-beta.1.tgz#135a0e970958271a5ae5d1617d5e617212829772"
-  integrity sha512-zbXo7gKUqzeXVOkxftlQu88mGycjl7bkzgFaCd5aMTEAqJMT7PDFDgXt4rfUu+gdXhU0iftBApKakgN1JDQnhA==
+"@linaria/logger@^3.0.0-beta.0", "@linaria/logger@^3.0.0-beta.3":
+  version "3.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/@linaria/logger/-/logger-3.0.0-beta.3.tgz#4bb8f0f36567cea7cac16a60fb3474fbfec491a7"
+  integrity sha512-Z2k0RJuA4PffcZcwBN1By8FmcCvcFUe9GHc846B6hNP09zDVhHSFLKJN9NfXJCzJ/9PifOxSUKyOjLtpv3EhGA==
   dependencies:
-    "@linaria/babel-preset" "^3.0.0-beta.1"
+    debug "^4.1.1"
+
+"@linaria/preeval@^3.0.0-beta.4":
+  version "3.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@linaria/preeval/-/preeval-3.0.0-beta.4.tgz#a402e448530077c276ce9aa32f570717ad8702bb"
+  integrity sha512-bIH5tUP+V29ShETab993a5aKMikIB1dyVywUkEWg0fF3ZvhVduQph9GgK+WKu4S5oEIwTHTHYwGzYvT1gBWUvQ==
+  dependencies:
+    "@linaria/babel-preset" "^3.0.0-beta.4"
 
 "@linaria/react@^3.0.0-beta.1":
   version "3.0.0-beta.1"
@@ -960,18 +972,18 @@
     "@emotion/is-prop-valid" "^0.8.8"
     "@linaria/core" "^3.0.0-beta.1"
 
-"@linaria/shaker@^3.0.0-beta.1":
-  version "3.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@linaria/shaker/-/shaker-3.0.0-beta.1.tgz#1aebf42ef12deb110707cd59acd55818f26cd1fd"
-  integrity sha512-nd/b2Eh7YSFqomVEfZS0SqtWkL/XAZAAvKIC/mBUxwCEpX7BSj0Z4m3359Uy5qSSanTypaIkzHSUxeX0bdkmIQ==
+"@linaria/shaker@^3.0.0-beta.4":
+  version "3.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@linaria/shaker/-/shaker-3.0.0-beta.4.tgz#4028aa948b877ff92f545f6d54529e7167e35582"
+  integrity sha512-4YEa7BRQsvXrK1k9ytfiThw6e98YNBsi7UUAu+/D9EhntM3PFEalQ6w0o1C6kKptWHuf5BYodVldg4xcYJCx4Q==
   dependencies:
     "@babel/generator" ">=7"
     "@babel/plugin-transform-runtime" ">=7"
     "@babel/plugin-transform-template-literals" ">=7"
     "@babel/preset-env" ">=7"
-    "@linaria/babel-preset" "^3.0.0-beta.1"
-    "@linaria/logger" "^3.0.0-beta.0"
-    "@linaria/preeval" "^3.0.0-beta.1"
+    "@linaria/babel-preset" "^3.0.0-beta.4"
+    "@linaria/logger" "^3.0.0-beta.3"
+    "@linaria/preeval" "^3.0.0-beta.4"
     babel-plugin-transform-react-remove-prop-types "^0.4.24"
 
 "@linaria/webpack-loader@^3.0.0-beta.1":
