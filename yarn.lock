@@ -1010,10 +1010,10 @@
     mkdirp "^0.5.1"
     normalize-path "^3.0.0"
 
-"@next/bundle-analyzer@^10.0.6":
-  version "10.0.6"
-  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-10.0.6.tgz#e39b45f7d08a5e913c870d5bc0b666bf5a230f37"
-  integrity sha512-zwl08fz784t0tpJFTUpoYTcPUQ3SqIEb2M+3Lyv2rMXeQ8AsRru7bSvTdW1P15ENWDDF2AovJptAoohjfutViQ==
+"@next/bundle-analyzer@^12.0.8":
+  version "12.0.8"
+  resolved "https://registry.yarnpkg.com/@next/bundle-analyzer/-/bundle-analyzer-12.0.8.tgz#a4fef1b14f8a4a87c09d97a3d909deddc88d12f8"
+  integrity sha512-tRwFyAkJA0h+rwt4exq31T59qo4qwp7vPoR3yC8gIpK/E5NAwafyk40aNpk4OWhiQ2IvJMFutukMzY3xl79NXA==
   dependencies:
     webpack-bundle-analyzer "4.3.0"
 
